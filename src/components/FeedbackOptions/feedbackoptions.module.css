@@ -1,0 +1,14 @@
+.btn_block {
+  margin: 0 auto;
+  text-align: center;
+}
+.btn_item {
+  width: 100px;
+  height: 30px;
+  background-color: burlywood;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn_item:not(:last-child) {
+  margin-right: 30px;
+}
